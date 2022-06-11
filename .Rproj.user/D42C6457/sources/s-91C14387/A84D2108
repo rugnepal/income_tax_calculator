@@ -1,0 +1,26 @@
+{
+    "id": "A84D2108",
+    "path": "~/R/incometax/shiny/server.R",
+    "project_path": "shiny/server.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1654307552652.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "69,20",
+        "scrollLine": "50"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1654965616,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1654965616883,
+    "read_only": false,
+    "read_only_alternatives": []
+}

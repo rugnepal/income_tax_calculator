@@ -1,0 +1,512 @@
+}
+get("2078/79", 0)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+type
+}
+get("2078/79", 0)
+get("2078/79", 2)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+type
+bracket
+}
+get("2078/79", 2)
+single_2079_80 <- c(".01" = 500000, ".10" = 700000, ".20" = 800000, ".30" = 1500000, ".36" = Inf)
+single_2078_79 <- c(".01" = 400000, ".10" = 500000, ".20" = 700000, ".30" = 2000000, ".36" = Inf)
+single_2078_79_ssf <- c("0" = 400000, ".10" = 500000, ".20" = 700000, ".30" = 2000000, ".36" = Inf)
+single_2079_80_ssf <- c("0" = 500000, ".10" = 700000, ".20" = 800000, ".30" = 1500000, ".36" = Inf)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+type
+bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+centre <- function(x, type) {
+sit <- list(mean = "mean", median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+sit <- list(mean = type, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+type <- paste0(type)
+sit <- list(mean = type, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+type <- paste0(type, 1)
+sit <- list(mean = type, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+type <- paste0(type, 1)
+sit <- list(mean = "mean1", median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+x <- noquote(x)
+with( sit, switch(type,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+x <- noquote(x)
+with( sit, switch(x,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+x <- noquote(x)
+with( sit, switch(x,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(x,
+x = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(x,
+mean1 = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(x,
+mean1 = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- year
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- year
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = year)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = year)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = year)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(x,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = year)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(bracket,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = year)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+# bracket
+# type
+# bracket
+}
+get("2078/79", 2)
+get <- function(year, ssf) {
+# type <- ifelse(ssf !=0, paste0(year, ssf), paste0(year))
+type <- paste0(year, ssf)
+bracket <- list(y2078_79 = "2078/79", y2079_80 = "2079/80", ssfy2078_79 = type)
+# if(type == "2078/79" & ssf > 0) type <- sit[1]
+# else if
+with(bracket, switch(type,
+y2078_79 = single_2078_79,
+y2079_80 = single_2079_80,
+ssfy2078_79 = single_2078_79_ssf)
+)
+bracket
+#
+# type
+# bracket
+}
+get("2078/79", 2)
+with(bracket)
+with(bracket, y2078_79)
+bracket
+names(bracket)
+bracket[[]]
+bracket[]
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(x,
+mean1 = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean1 = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean1 = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+# sit
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+# x <- paste0(type, 1)
+sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+# x <- paste0(type, 1)
+# sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+# x <- paste0(type, 1)
+# sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+# x <- paste0(type, 1)
+# sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre <- function(x, type) {
+# x <- paste0(type, 1)
+# sit <- list(mean = x, median = "median", trimmed = "trimmed")
+with( sit, switch(type,
+mean = mean(x),
+median = median(x),
+trimmed = mean(x, trim = .1)))
+}
+centre(x, "mean")
+centre(x, "median")
