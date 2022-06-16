@@ -91,8 +91,9 @@ fluidPage(
       )
     ),
     br(),
-    p("* Including Bonus, Allowances or Any special benefits,
-      Disclaimer: All Information shared here may differ"),
+    p("* Including Bonus, Allowances or Any special benefits"),
+      p("Disclaimer: Only general cases for Income tax calculation are included, 
+        so exact information may differ"),
     br(), br(), br(),
     tags$a(
       href = "https://github.com/rugnepal/income_tax_calculator",
