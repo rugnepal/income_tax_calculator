@@ -91,10 +91,11 @@ fluidPage(
       )
     ),
     br(),
-    p("* Including Bonus, Allowances or Any special benefits"),
+    p("* Including Bonus, Allowances or Any special benefits,
+      Disclaimer: All Information shared here may differ"),
     br(), br(), br(),
     tags$a(
-      href = "https://github.com/rugnepal/nepal-local-election-2079",
+      href = "https://github.com/rugnepal/income_tax_calculator",
       "Source code: GitHub"
     )
   ),

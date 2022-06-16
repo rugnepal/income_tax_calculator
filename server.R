@@ -46,7 +46,7 @@ function(input, output, session) {
     })
 
     output$table2 <- renderDataTable({
-      req(nrow(data_in2()) != 0)
+      req(c(nrow(data_in2()) != 0, input$submit))
       datatable(data_in2() ,
         colnames = "Calculation Details",
         # filter = "top",
@@ -61,7 +61,7 @@ function(input, output, session) {
     })
 
     output$table <- renderDataTable({
-      req(nrow(data_in()) != 0)
+      req(c(nrow(data_in()) != 0, input$submit))
       datatable(data_in() ,
         colnames = c("Taxable Income", "Rates (%)", "Tax Liability"),
         # filter = "top",
