@@ -10,9 +10,9 @@ fluidPage(
   meta() %>%
     meta_social(
       title = "Personal Income Tax - Nepal",
-      description = "Personal Income Tax - Nepal",
+      description = "Personal Income Tax calculator helps you know how much tax you pay and how much you save.",
       url = "https://bjung.shinyapps.io/",
-      image = "",
+      image = "https://bsmedia.business-standard.com/_media/bs/img/about-page/1562037516.jpg",
       image_alt = "Personal Income Tax - Nepal",
       twitter_creator = "@bjungbogati",
       twitter_card_type = "summary",
