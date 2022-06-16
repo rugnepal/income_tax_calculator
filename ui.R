@@ -9,8 +9,8 @@ fluidPage(
   br(),
   meta() %>%
     meta_social(
-      title = "Personal Income Tax - Nepalनाव २०७९",
-      description = "Personal Income Tax - Nepalम्मेदवारहरूको",
+      title = "Personal Income Tax - Nepal",
+      description = "Personal Income Tax - Nepal",
       url = "https://bjung.shinyapps.io/",
       image = "",
       image_alt = "Personal Income Tax - Nepal",
