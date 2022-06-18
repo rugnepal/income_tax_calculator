@@ -23,24 +23,21 @@ fluidPage(
   sidebarPanel(
     fluidRow(
       column(
-        4,
-        # selectizeInput("sex", "Sex", c("Male", "Female")),
-        
-        checkboxInput("sex", "Female?", value = FALSE, width = NULL), 
+        6,
+        checkboxInput("sex", "Female?", value = FALSE, width = NULL),
       ),
-      
       column(
-        4,
-        checkboxInput("disab", "Disability?", value = FALSE, width = NULL), 
+        6,
+        checkboxInput("disab", "Disabled?", value = FALSE, width = NULL),
       ),
-      
       column(
-        4,
-        checkboxInput("mstatus", "Couple?", value = FALSE, width = NULL), 
+        6,
+        checkboxInput("mstatus", "Couple?", value = FALSE, width = NULL),
       ),
-      
-     
-      
+      column(
+        6,
+        checkboxInput("flancer", "Freelancer?", value = FALSE, width = NULL),
+      ),
       column(
         6,
         numericInput("income", "Total Annual Income*", value = 0, min = 0, max = Inf)
@@ -77,12 +74,11 @@ fluidPage(
           max = 20000
         )
       ),
-      
       column(
         12,
         numericInput("mexpense", "Annual Medical Expense",
-                     value = 0, min = 0,
-                     max = 20000
+          value = 0, min = 0,
+          max = 20000
         )
       ),
       column(
@@ -92,7 +88,7 @@ fluidPage(
     ),
     br(),
     p("* Including Bonus, Allowances or Any special benefits"),
-      p("Disclaimer: Only general cases for Income tax calculation are included, 
+    p("Disclaimer: Only general cases for Income tax calculation are included, 
         so exact information may differ"),
     br(), br(), br(),
     tags$a(

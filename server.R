@@ -21,6 +21,7 @@ function(input, output, session) {
         input$disab,
         input$sex,
         input$mstatus,
+        input$flancer,
         input$income,
         input$year,
         input$cit,
